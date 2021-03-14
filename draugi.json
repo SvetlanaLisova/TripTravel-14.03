@@ -1,1 +1,29 @@
-{"draugi": [{"Name": "Ieva", "Phone_nr": "28964573", "Surname": "Liel\u0101"}, {"Name": "Ivars", "Phone_nr": "28964574", "Surname": "Tum\u0161ais"}, {"Name": "Liene", "Phone_nr": "28964575", "Surname": "Gai\u0161\u0101"}, {"Name": "Toms", "Phone_nr": "28964576", "Surname": "B\u0113rzi\u0146\u0161"}, {"Name": "Jekaterina", "Phone_nr": "2743577", "Surname": "Ozola"}, {"Name": "Anna", "Phone_nr": "23456781", "Surname": "Kotik"}, {"Name": "Anna", "Phone_nr": "23456781", "Surname": "Murzik"}, {"Name": "Kate", "Phone_nr": "234567", "Surname": "Werty"}, {"Name": "Newname", "Phone_nr": "123456", "Surname": "Ok"}, {"Name": "Aleksandrs", "Phone_nr": "45678", "Surname": "Kotte"}, {"Name": "Olga", "Phone_nr": "2345671", "Surname": "Barinova"}]}
+{
+    "draugi": [
+        {
+            "Name": "Ieva",
+            "Surname": "Lielā",
+            "Phone_nr": "28964573"
+        },
+        {
+            "Name": "Ivars",
+            "Surname": "Tumšais",
+            "Phone_nr": "28964574"
+        },
+        {
+            "Name": "Liene",
+            "Surname": "Gaišā",
+            "Phone_nr": "28964575"
+        },
+        {
+            "Name": "Toms",
+            "Surname": "Bērziņš",
+            "Phone_nr": "28964576"
+        },
+        {
+            "Name": "Jekaterina",
+            "Surname": "Ozola",
+            "Phone_nr": "2743577"
+        }
+    ]
+}
