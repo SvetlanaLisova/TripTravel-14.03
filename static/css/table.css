@@ -1,0 +1,82 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  color: #aec7ce;
+  font-weight: 400;
+  font-size: 13px;
+  background: #3f586b;
+}
+
+th, td {
+  padding: 0 10px;
+  height: 48px;
+  text-align: center;
+}
+
+
+tbody tr:not(:last-of-type) { border-bottom: 5px solid var(--neutral-50); }
+
+.content table .button {
+  border: none;
+  background: none;
+  width: auto;
+  padding: 0 10px;
+  margin: 0 !important;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.content table .button:hover {
+  color: var(--neutral-0);
+  background: var(--neutral-400);
+}
+
+.content table .button.button_error { color: var(--red-400); }
+.content table .button.button_error:hover {
+  color: var(--neutral-0);
+  background: var(--red-400);
+}
+
+.table_filter {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.table_filter_label {
+  margin-right: 6px;
+  color: var(--neutral-400);
+}
+
+.table_filter .button.active {
+  background: #3f586b;
+  color: var(--neutral-0);
+}
+
+#saraksts tr:nth-child(even) {
+    background-color:  #90A4AE;
+  }
+
+  #saraksts tr:hover {
+    background-color: #5a7d8c8c;
+  }
+
+  #saraksts td, #saraksts thead {
+    border: 1px solid #102638;
+    padding: 8px;
+	color: #102638;
+  }
+
+  #saraksts thead {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #6f9db3;
+	 font-weight: 400;
+  font-size: 13px;
+    color: white;
+  } 
+	

@@ -1,0 +1,29 @@
+{
+    "draugi": [
+        {
+            "Name": "Ieva",
+            "Surname": "Lielā",
+            "Phone_nr": "28964573"
+        },
+        {
+            "Name": "Ivars",
+            "Surname": "Tumšais",
+            "Phone_nr": "28964574"
+        },
+        {
+            "Name": "Liene",
+            "Surname": "Gaišā",
+            "Phone_nr": "28964575"
+        },
+        {
+            "Name": "Toms",
+            "Surname": "Bērziņš",
+            "Phone_nr": "28964576"
+        },
+        {
+            "Name": "Jekaterina",
+            "Surname": "Ozola",
+            "Phone_nr": "2743577"
+        }
+    ]
+}

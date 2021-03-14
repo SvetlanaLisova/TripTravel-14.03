@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Road Trip</title>
+<meta name="keywords" content="car, trips, companions" />
+<meta name="description" content="Website for searching trip companions" />
+<link href="../static/css/default.css" rel="stylesheet" type="text/css" />
+<script src="{{ url_for('static', filename='script.js') }}" type="text/javascript"></script>
+</head>
+<body>
+<div id="header"style="margin-top:120px;">
+  <div id="logo">
+  <img src="../static/images/logo.png">
+   
+  <div id="block">
+    <h1>Road Trip</h1>
+	</div>
+	</div>
+
+ 
+  <div id="menu">
+    <ul>
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/marsruti">Routes</a></li>
+       <li><a href="/komp">Companions</a></li>
+      <li><a href="/contacts">Contacts</a></li>
+    </ul>
+  </div>
+</div>
+<div id="page">
+  <div id="content">
+    <div style="margin-bottom: 20px;">
+      <h1 class="title">Welcome to Our Website!</h1>
+      <p>Traveling on a road trip with a group of friends or with family is not always the most relaxing experience. Particularly if you are spending long hours on the road between destinations. Not everyone wants to travel with someone who wants to talk 24/7, spends hours at a single destination trying to take the perfect photograph, or has the itinerary planned out to such extremes that there is no spare time. Taking long road trips is about compromise and enjoying some time to yourself every now and then.</p>
+      <h2>Travel With Someone Who Has a Similar Travel Style</h2>
+      <p>If you’d like nothing more than a quiet holiday exploring ancient cobblestone streets and soaking up the culture at a museum, pairing yourself with a high-adrenaline junkie who would rather be skydiving over the Alps or hiking the Inca trail is probably not a idea. Choose your travel companion wisely. Travelling with someone with common interests means you will get to spend more time doing the sorts of things you want to do.</p>
+      <blockquote>
+        <p>Share The Planning</p>
+      </blockquote>
+	   <h2>Split the Costs!</h2>
+      <p>Decide in advance who is going to pay for what, and try and even out the costings. Make sure you take turns covering accommodation and food costs. One person shouldn’t get stuck footing the bill.
+ 
+ <p>Remember that your idea of “expensive” might be different than your companion. What you might see as a “great deal” might not be someone else’s ideal accommodation arrangement.</p>
+    </div>
+  
+    <div class="twocols">
+      <div class="col1">
+        <h3 class="title">Here Are Some Tips From VroomVroomVroom</h3>
+        <p>The driver does not want to hear feedback about their driving technique, and they also will not appreciate any nervous gasps or passengers clutching at the car door handles. If you’re riding shotgun, your tasks are limited to simply navigating.</p>
+        <p><a href="https://www.startit.lv/">Read more&hellip;</a></p>
+      </div>
+      <div class="col2">
+        <h3 class="title">Blogs With The Tips For Travelers</h3>
+        <ul class="list">
+          <li><a href="https://www.nomadicmatt.com/travel-blogs/61-travel-tips/">Best 61 Travel Tips To Make You The World's Savviest Traveler</a></li>
+          <li><a href="https://expertvagabond.com/best-travel-tips/">50 Best Travel Tips After 10 Years Traveling The World </a></li>
+          <li><a href="https://www.youtube.com/user/tipsfortravellers">Tips For Travellers channel </a></li>
+		  <li><a href="https://www.smartertravel.com/10-simple-tips-smoother-trip/">10 Simple Tips for a Smoother Trip - Smarter Travel </a></li>
+  
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- end content -->
+  <!-- new sidebar -->
+  <div id="sidebar">
+
+    <div id="login" class="boxed">
+      <h2 class="title">Sign in to Your Account</h2>
+
+      <div class="content">  
+
+ <div id="left-sidebar">
+   <form onsubmit="return false" style="float:center;">
+     <div class="login">
+       <input type="text" placeholder="Username" id="uname" required>        
+       <input type="password" placeholder="Password" id="psw" required>            
+       <button class="poga" onclick="login()">Sign in</button>
+     </div>      
+   </form>
+   <hr>
+   <button class="poga" onclick="document.getElementById('idRegistracija').style.display='block'">Registration</button>
+   <br>
+   <div id="idRegistracija" class="modal" style="display:none">
+     <form onsubmit="return false" class="modal-content animate">
+       <div class="container">
+         <input type="text" placeholder="Username" id="runame" required>
+         <input type="password" placeholder="Password" id="rpsw" required>
+         <input type="password" placeholder="Repeat Password " id="rpsw2" required>  
+         <button type="submit" class="poga" onclick="lgnpsscheck()">Registration</button>
+         <button type="button" class="poga" onclick="document.getElementById('idRegistracija').style.display='none'" class="cancelbtn">Close form</button>              
+       </div>        
+     </form>
+   </div>
+ </div>
+</div>
+</div>
+  <!-- end new sidebar -->
+                                   
+	
+    <div id="news" class="boxed">
+      <h2 class="title">News &amp; Events</h2>
+      <div class="content">
+        <ul>
+          <li class="first">
+            <h3>02 February 2020</h3>
+            <p><a href="http://www.balttour.lv/?link=10000000">Balttour 2020</a></p>
+          </li>
+          <li>
+            <h3>29 September 2020</h3>
+            <p><a href="https://www.tripadvisor.com/Attractions-g274960-Activities-Latvia.html">Top Attractions in Latvia&hellip;</a></p>
+          </li>
+          <li>
+            <h3>10 Oktober 2020</h3>
+            <p><a href="http://web-mastery.info/">Popular Cities in Latvia&hellip;</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+  </div>
+  <!-- end sidebar -->
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<!-- end page -->
+<div id="footer">
+  <p id="legal">2020 Road Trip. All Rights Reserved.</p>
+</div>
+</body>
+</html>
